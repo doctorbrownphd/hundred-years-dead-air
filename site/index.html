@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8" />
-<meta name="viewport" content="width=1440" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Dead Air · One Hundred Years</title>
 <meta name="description" content="Dead Air — How one law rewired American broadcasting. A data investigation into media consolidation after the Telecommunications Act of 1996." />
 <meta property="og:title" content="Dead Air · One Hundred Years" />
@@ -29,7 +29,7 @@
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; background: var(--bg); color: var(--ink); font-family: 'Source Serif 4', Georgia, serif; font-variant-numeric: tabular-nums; }
-  body { min-width: 1440px; overflow-x: auto; }
+  body { overflow-x: hidden; }
   .mono { font-family: 'Space Mono', ui-monospace, monospace; }
   .garamond { font-family: 'EB Garamond', 'Times New Roman', serif; }
   .serif { font-family: 'Source Serif 4', Georgia, serif; }
@@ -43,6 +43,34 @@
     background-size: 3px 3px; mix-blend-mode: screen; opacity: 0.5;
   }
   #root { position: relative; }
+
+  /* ── MOBILE ── */
+  @media(max-width:900px) {
+    svg { max-width: 100%; height: auto; }
+    /* Splash */
+    [style*="font-size: 180px"] { font-size: clamp(56px, 14vw, 180px) !important; }
+    [style*="font-size: 84px"] { font-size: clamp(32px, 8vw, 84px) !important; }
+    [style*="padding: 60px 80px"] { padding: 40px 20px !important; }
+    [style*="max-width: 720px"] { max-width: 100% !important; }
+    [style*="gap: 80px"] { gap: 24px !important; }
+    [style*="grid-template-columns: 1fr auto"] { grid-template-columns: 1fr !important; gap: 12px !important; }
+    [style*="padding: 28px 56px"], [style*="padding: 28px 56px 22px"] { padding: 16px !important; }
+    [style*="padding: 40px 56px"] { padding: 20px 16px !important; }
+    [style*="text-align: right"][style*="line-height: 1.8"] { display: none !important; }
+    [style*="font-size: 52px"] { font-size: 26px !important; }
+    [style*="font-size: 17px"][style*="max-width"] { font-size: 14px !important; }
+    [style*="padding: 0 56px"][style*="display: flex"] { padding: 0 8px !important; overflow-x: auto !important; -webkit-overflow-scrolling: touch !important; }
+    [style*="padding: 0px 56px"][style*="display: flex"] { padding: 0 8px !important; overflow-x: auto !important; -webkit-overflow-scrolling: touch !important; }
+    [style*="padding: 16px 22px"] { padding: 10px 10px !important; white-space: nowrap !important; }
+    [style*="padding: 48px 56px"] { padding: 24px 16px !important; }
+    [style*="padding: 32px 56px"] { padding: 20px 16px !important; }
+    [style*="padding: 24px 56px"] { padding: 16px !important; }
+    [style*="padding: 20px 56px"] { padding: 16px !important; }
+  }
+  @media(max-width:480px) {
+    [style*="font-size: 52px"] { font-size: 22px !important; }
+    [style*="font-size: 10px"][style*="letter-spacing"] { font-size: 8px !important; }
+  }
 </style>
 </head>
 <body class="grain">
@@ -63,6 +91,8 @@
 <script type="text/babel" src="src/tab-desert.jsx"></script>
 <script type="text/babel" src="src/tab-signal.jsx"></script>
 <script type="text/babel" src="src/tab-public.jsx"></script>
+<script src="src/counterfactual-data.js"></script>
+<script type="text/babel" src="src/tab-counterfactual.jsx"></script>
 <script type="text/babel" src="src/tab-methodology.jsx"></script>
 <script type="text/babel" src="src/app.jsx"></script>
 

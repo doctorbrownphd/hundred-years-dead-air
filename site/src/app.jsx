@@ -7,7 +7,8 @@ const TABS = [
   { id: 'desert',      n: '04', label: 'The Desert' },
   { id: 'signal',      n: '05', label: 'The Signal' },
   { id: 'public',      n: '06', label: 'The Public Interest' },
-  { id: 'methodology', n: '07', label: 'The Methodology' },
+  { id: 'counterfactual', n: '08', label: 'The Counterfactual' },
+  { id: 'methodology', n: '09', label: 'The Methodology' },
 ];
 
 function App() {
@@ -74,6 +75,7 @@ function App() {
         {tab === 'desert' && <TabDesert />}
         {tab === 'signal' && <TabSignal />}
         {tab === 'public' && <TabPublic />}
+        {tab === 'counterfactual' && <CounterfactualTab />}
         {tab === 'methodology' && <TabMethodology />}
       </div>
       <Footer />
@@ -208,7 +210,7 @@ function Footer() {
       </div>
       <div style={{ marginTop: 18, display: 'flex', justifyContent: 'space-between', borderTop: '1px solid var(--line)', paddingTop: 14 }}>
         <Tick>SOURCE · FCC · BROADCAST LICENSE DATABASE · PUBLIC DOMAIN</Tick>
-        <Tick>METHODOLOGY · § 07</Tick>
+        <Tick>METHODOLOGY · § 09</Tick>
         <Tick>MIT LICENSE · OPEN DATA</Tick>
       </div>
     </div>
