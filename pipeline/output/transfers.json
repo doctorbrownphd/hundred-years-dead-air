@@ -1,0 +1,433 @@
+{
+  "description": "Major US broadcast license transfers and ownership changes, 1993-2023",
+  "methodology": "Transactions compiled from SEC filings, FCC license transfer records, and trade press reports. Prices from SEC filings and published reports. Focus on the consolidation wave triggered by the 1996 Telecommunications Act.",
+  "sources": [
+    "FCC CDBS license transfer records",
+    "SEC EDGAR filings (Clear Channel, iHeartMedia, Cumulus, Sinclair, Nexstar)",
+    "Broadcasting & Cable trade publication",
+    "Radio Ink industry reports"
+  ],
+  "count": 28,
+  "data": [
+    {
+      "date": "1993-09-15",
+      "year": 1993,
+      "transaction": "Infinity Broadcasting acquires stations in major markets",
+      "call_signs": [
+        "WFAN-AM",
+        "KROQ-FM",
+        "WZLX-FM"
+      ],
+      "market": "New York / Los Angeles / Boston",
+      "from_owner": "Various local owners",
+      "to_owner": "Infinity Broadcasting",
+      "price": 350000000,
+      "type": "acquisition",
+      "note": "Pre-Telecom Act consolidation within ownership caps"
+    },
+    {
+      "date": "1996-05-29",
+      "year": 1996,
+      "transaction": "Clear Channel acquires Paxson Communications radio stations",
+      "call_signs": [
+        "Multiple"
+      ],
+      "market": "Multiple (Southeast US)",
+      "from_owner": "Paxson Communications",
+      "to_owner": "Clear Channel Communications",
+      "price": 693000000,
+      "type": "acquisition",
+      "note": "One of the first major post-Telecom Act deals"
+    },
+    {
+      "date": "1996-10-01",
+      "year": 1996,
+      "transaction": "Westinghouse/CBS acquires Infinity Broadcasting",
+      "call_signs": [
+        "WFAN-AM",
+        "KROQ-FM",
+        "WODS-FM",
+        "WBCN-FM"
+      ],
+      "market": "New York / Los Angeles / Boston",
+      "from_owner": "Infinity Broadcasting",
+      "to_owner": "CBS Radio (Westinghouse)",
+      "price": 4700000000,
+      "type": "merger",
+      "note": "Created largest radio group at the time: 83 stations"
+    },
+    {
+      "date": "1997-02-12",
+      "year": 1997,
+      "transaction": "Chancellor Broadcasting acquires Viacom Radio",
+      "call_signs": [
+        "WLTW-FM",
+        "KYSR-FM"
+      ],
+      "market": "Multiple",
+      "from_owner": "Viacom",
+      "to_owner": "Chancellor Broadcasting",
+      "price": 1100000000,
+      "type": "acquisition",
+      "note": null
+    },
+    {
+      "date": "1997-06-04",
+      "year": 1997,
+      "transaction": "Clear Channel acquires Paxson radio assets",
+      "call_signs": [
+        "Multiple (46 stations)"
+      ],
+      "market": "Multiple (12 markets)",
+      "from_owner": "Paxson Communications",
+      "to_owner": "Clear Channel Communications",
+      "price": 700000000,
+      "type": "acquisition",
+      "note": "Clear Channel reaches ~175 stations"
+    },
+    {
+      "date": "1998-02-25",
+      "year": 1998,
+      "transaction": "Clear Channel acquires Jacor Communications",
+      "call_signs": [
+        "WLW-AM",
+        "WFLZ-FM",
+        "KFBK-AM"
+      ],
+      "market": "Cincinnati / Tampa / Sacramento / Multiple",
+      "from_owner": "Jacor Communications",
+      "to_owner": "Clear Channel Communications",
+      "price": 4400000000,
+      "type": "merger",
+      "note": "Clear Channel reaches ~450 stations. Jacor was 3rd largest group."
+    },
+    {
+      "date": "1998-08-31",
+      "year": 1998,
+      "transaction": "Chancellor Media merges with Capstar Broadcasting",
+      "call_signs": [
+        "Multiple (463 stations)"
+      ],
+      "market": "Nationwide",
+      "from_owner": "Capstar Broadcasting / Chancellor Media",
+      "to_owner": "AMFM Inc.",
+      "price": 17400000000,
+      "type": "merger",
+      "note": "Created AMFM: 463 stations, second-largest radio company"
+    },
+    {
+      "date": "1999-10-02",
+      "year": 1999,
+      "transaction": "Clear Channel acquires AMFM Inc.",
+      "call_signs": [
+        "Multiple (~830 stations combined)"
+      ],
+      "market": "Nationwide (all top 50 markets)",
+      "from_owner": "AMFM Inc.",
+      "to_owner": "Clear Channel Communications",
+      "price": 23500000000,
+      "type": "merger",
+      "note": "Largest radio deal in history. Clear Channel reaches ~830 stations."
+    },
+    {
+      "date": "2000-03-15",
+      "year": 2000,
+      "transaction": "Clear Channel acquires SFX Entertainment",
+      "call_signs": [],
+      "market": "Nationwide (live events)",
+      "from_owner": "SFX Entertainment",
+      "to_owner": "Clear Channel Communications",
+      "price": 4400000000,
+      "type": "acquisition",
+      "note": "Vertical integration: radio + concert venues + promotion"
+    },
+    {
+      "date": "2000-09-20",
+      "year": 2000,
+      "transaction": "Viacom acquires CBS (including Infinity Broadcasting)",
+      "call_signs": [
+        "WCBS-AM",
+        "WFAN-AM",
+        "KNX-AM",
+        "KROQ-FM"
+      ],
+      "market": "New York / Los Angeles / Chicago / Multiple",
+      "from_owner": "CBS Corporation",
+      "to_owner": "Viacom/Infinity Broadcasting",
+      "price": 37300000000,
+      "type": "merger",
+      "note": "CBS Radio (Infinity) controlled ~185 stations in top markets"
+    },
+    {
+      "date": "2001-06-05",
+      "year": 2001,
+      "transaction": "Cumulus Media acquires multiple station groups",
+      "call_signs": [
+        "Multiple (55+ stations)"
+      ],
+      "market": "Mid-size markets nationwide",
+      "from_owner": "Various local owners",
+      "to_owner": "Cumulus Media",
+      "price": 250000000,
+      "type": "acquisition",
+      "note": "Cumulus grew from 0 to 248 stations between 1997-2001"
+    },
+    {
+      "date": "2001-11-15",
+      "year": 2001,
+      "transaction": "Citadel Broadcasting acquires multiple groups",
+      "call_signs": [
+        "Multiple"
+      ],
+      "market": "Mid-size markets",
+      "from_owner": "Various",
+      "to_owner": "Citadel Broadcasting",
+      "price": 190000000,
+      "type": "acquisition",
+      "note": "Citadel grew to ~200 stations by 2003"
+    },
+    {
+      "date": "1996-12-01",
+      "year": 1996,
+      "transaction": "Sinclair acquires Heritage Communications TV stations",
+      "call_signs": [
+        "WTTE-TV",
+        "WSYX-TV"
+      ],
+      "market": "Columbus / Multiple",
+      "from_owner": "Heritage Communications",
+      "to_owner": "Sinclair Broadcast Group",
+      "price": 243000000,
+      "type": "acquisition",
+      "note": "Sinclair begins aggressive TV station acquisition"
+    },
+    {
+      "date": "1997-09-01",
+      "year": 1997,
+      "transaction": "Sinclair acquires Heritage Media Corporation",
+      "call_signs": [
+        "KOCB-TV",
+        "WXLV-TV",
+        "WDKY-TV"
+      ],
+      "market": "Oklahoma City / Multiple",
+      "from_owner": "Heritage Media Corporation",
+      "to_owner": "Sinclair Broadcast Group",
+      "price": 630000000,
+      "type": "acquisition",
+      "note": "Sinclair reaches 29 stations"
+    },
+    {
+      "date": "1998-04-01",
+      "year": 1998,
+      "transaction": "Sinclair acquires Sullivan Broadcasting",
+      "call_signs": [
+        "KABB-TV",
+        "WSTR-TV"
+      ],
+      "market": "San Antonio / Cincinnati / Multiple",
+      "from_owner": "Sullivan Broadcasting",
+      "to_owner": "Sinclair Broadcast Group",
+      "price": 1000000000,
+      "type": "acquisition",
+      "note": "Sinclair reaches 56 stations in 37 markets"
+    },
+    {
+      "date": "2005-06-13",
+      "year": 2005,
+      "transaction": "Clear Channel spins off live entertainment division",
+      "call_signs": [],
+      "market": "Nationwide",
+      "from_owner": "Clear Channel Communications",
+      "to_owner": "Live Nation Entertainment",
+      "price": 0,
+      "type": "spinoff",
+      "note": "Clear Channel separates radio from concerts/venues"
+    },
+    {
+      "date": "2006-11-16",
+      "year": 2006,
+      "transaction": "CBS Radio spun off from CBS Corporation",
+      "call_signs": [
+        "WCBS-AM",
+        "WFAN-AM",
+        "KROQ-FM"
+      ],
+      "market": "New York / Los Angeles / Multiple",
+      "from_owner": "CBS Corporation",
+      "to_owner": "CBS Radio (independent)",
+      "price": 0,
+      "type": "spinoff",
+      "note": "CBS Radio had 140 stations in 35 markets"
+    },
+    {
+      "date": "2008-07-30",
+      "year": 2008,
+      "transaction": "Clear Channel taken private by Bain Capital / Thomas H. Lee",
+      "call_signs": [
+        "All ~850 stations"
+      ],
+      "market": "Nationwide",
+      "from_owner": "Clear Channel (public shareholders)",
+      "to_owner": "CC Media Holdings (Bain Capital/THL)",
+      "price": 19400000000,
+      "type": "leveraged_buyout",
+      "note": "Leveraged buyout saddled company with massive debt"
+    },
+    {
+      "date": "2011-09-16",
+      "year": 2011,
+      "transaction": "Cumulus Media acquires Citadel Broadcasting",
+      "call_signs": [
+        "WABC-AM",
+        "KABC-AM",
+        "WLS-AM"
+      ],
+      "market": "New York / Los Angeles / Chicago / Multiple",
+      "from_owner": "Citadel Broadcasting (out of bankruptcy)",
+      "to_owner": "Cumulus Media",
+      "price": 2500000000,
+      "type": "merger",
+      "note": "Cumulus becomes 2nd largest radio company with ~570 stations"
+    },
+    {
+      "date": "2013-07-01",
+      "year": 2013,
+      "transaction": "Sinclair acquires Fisher Communications",
+      "call_signs": [
+        "KOMO-TV",
+        "KATU-TV"
+      ],
+      "market": "Seattle / Portland / Multiple",
+      "from_owner": "Fisher Communications",
+      "to_owner": "Sinclair Broadcast Group",
+      "price": 373000000,
+      "type": "acquisition",
+      "note": "Sinclair expands Pacific Northwest footprint"
+    },
+    {
+      "date": "2014-07-28",
+      "year": 2014,
+      "transaction": "Sinclair acquires Allbritton Communications",
+      "call_signs": [
+        "WJLA-TV",
+        "KATV-TV",
+        "WHTM-TV"
+      ],
+      "market": "Washington DC / Little Rock / Multiple",
+      "from_owner": "Allbritton Communications",
+      "to_owner": "Sinclair Broadcast Group",
+      "price": 985000000,
+      "type": "acquisition",
+      "note": "Sinclair gains DC-area ABC affiliate WJLA"
+    },
+    {
+      "date": "2017-05-08",
+      "year": 2017,
+      "transaction": "Sinclair announces Tribune Media acquisition",
+      "call_signs": [
+        "WGN-TV",
+        "WPIX-TV",
+        "KTLA-TV"
+      ],
+      "market": "Chicago / New York / Los Angeles / Multiple",
+      "from_owner": "Tribune Media",
+      "to_owner": "Sinclair Broadcast Group",
+      "price": 3900000000,
+      "type": "acquisition_failed",
+      "note": "FCC blocked deal in 2018. Would have given Sinclair 233 stations reaching 72% of US."
+    },
+    {
+      "date": "2017-11-15",
+      "year": 2017,
+      "transaction": "Entercom acquires CBS Radio",
+      "call_signs": [
+        "WFAN-AM",
+        "KROQ-FM",
+        "WWJ-AM"
+      ],
+      "market": "New York / Los Angeles / Detroit / Multiple",
+      "from_owner": "CBS Radio",
+      "to_owner": "Entercom (later Audacy)",
+      "price": 1800000000,
+      "type": "merger",
+      "note": "Created Audacy: ~235 stations, 2nd largest by revenue"
+    },
+    {
+      "date": "2018-03-14",
+      "year": 2018,
+      "transaction": "iHeartMedia files Chapter 11 bankruptcy",
+      "call_signs": [
+        "All ~850 stations"
+      ],
+      "market": "Nationwide",
+      "from_owner": "iHeartMedia (pre-bankruptcy)",
+      "to_owner": "iHeartMedia (restructured)",
+      "price": 0,
+      "type": "bankruptcy",
+      "note": "Largest radio bankruptcy. $20B+ liabilities. Emerged May 2019."
+    },
+    {
+      "date": "2019-01-14",
+      "year": 2019,
+      "transaction": "Nexstar Media acquires Tribune Media",
+      "call_signs": [
+        "WGN-TV",
+        "WPIX-TV",
+        "KTLA-TV"
+      ],
+      "market": "Chicago / New York / Los Angeles / Multiple",
+      "from_owner": "Tribune Media",
+      "to_owner": "Nexstar Media Group",
+      "price": 4100000000,
+      "type": "acquisition",
+      "note": "Nexstar became largest TV station owner: 197 stations in 115 markets"
+    },
+    {
+      "date": "2021-05-03",
+      "year": 2021,
+      "transaction": "Standard General announces Tegna acquisition",
+      "call_signs": [
+        "WUSA-TV",
+        "KARE-TV",
+        "KING-TV"
+      ],
+      "market": "Washington DC / Minneapolis / Seattle / Multiple",
+      "from_owner": "Tegna Inc.",
+      "to_owner": "Standard General",
+      "price": 5400000000,
+      "type": "acquisition_failed",
+      "note": "FCC blocked deal in 2023 over competition concerns"
+    },
+    {
+      "date": "2022-06-29",
+      "year": 2022,
+      "transaction": "Audacy files for bankruptcy",
+      "call_signs": [
+        "WFAN-AM",
+        "KROQ-FM",
+        "KYW-AM"
+      ],
+      "market": "New York / Los Angeles / Philadelphia / Multiple",
+      "from_owner": "Audacy (pre-bankruptcy)",
+      "to_owner": "Audacy (restructured)",
+      "price": 0,
+      "type": "bankruptcy",
+      "note": "2nd largest radio company files bankruptcy. ~230 stations."
+    },
+    {
+      "date": "2023-11-01",
+      "year": 2023,
+      "transaction": "Cumulus Media emerges from restructuring",
+      "call_signs": [
+        "Multiple (~400 stations)"
+      ],
+      "market": "Nationwide",
+      "from_owner": "Cumulus Media (debt restructuring)",
+      "to_owner": "Cumulus Media (restructured)",
+      "price": 0,
+      "type": "restructuring",
+      "note": "Cumulus restructured ~$1B in debt. Consolidated stations remain."
+    }
+  ]
+}
