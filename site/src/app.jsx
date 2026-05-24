@@ -110,9 +110,6 @@ function TopBar({ tab, setTab }) {
             <line x1="0" y1="64" x2="7"  y2="64" stroke="#C9A84C" strokeWidth="0.8"/>
             <line x1="0" y1="72" x2="12" y2="72" stroke="#C9A84C" strokeWidth="1.5"/>
           </svg>
-          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round" style={{ opacity: 0.35, flexShrink: 0, marginTop: 14 }}>
-            <path d="M4.9 16.1C1 12.2 1 5.8 4.9 1.9"/><path d="M7.8 4.7a6.14 6.14 0 0 0-.8 7.5"/><circle cx="12" cy="9" r="2"/><path d="M16.2 4.8c2 2 2.26 5.11.8 7.47"/><path d="M19.1 1.9a9.96 9.96 0 0 1 0 14.1"/><path d="M9.5 18h5"/><path d="m8 22 4-11 4 11"/>
-          </svg>
           <div>
             <div className="mono" style={{
               fontSize: 10, letterSpacing: '0.2em', textTransform: 'uppercase',
@@ -120,8 +117,11 @@ function TopBar({ tab, setTab }) {
             }}>
               One Hundred Years of
             </div>
-            <div className="garamond" style={{ fontSize: 52, lineHeight: 1.05, color: 'var(--ink)', fontWeight: 400 }}>
+            <div className="garamond" style={{ fontSize: 52, lineHeight: 1.05, color: 'var(--ink)', fontWeight: 400, display: 'flex', alignItems: 'center', gap: 16 }}>
               Dead <em style={{ color: '#E8A838', fontStyle: 'italic' }}>Air</em>
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round" style={{ opacity: 0.25, flexShrink: 0 }}>
+                <path d="M4.9 16.1C1 12.2 1 5.8 4.9 1.9"/><path d="M7.8 4.7a6.14 6.14 0 0 0-.8 7.5"/><circle cx="12" cy="9" r="2"/><path d="M16.2 4.8c2 2 2.26 5.11.8 7.47"/><path d="M19.1 1.9a9.96 9.96 0 0 1 0 14.1"/><path d="M9.5 18h5"/><path d="m8 22 4-11 4 11"/>
+              </svg>
             </div>
             <div className="serif" style={{
               fontSize: 17, fontStyle: 'italic', color: 'var(--ink-dim)',
